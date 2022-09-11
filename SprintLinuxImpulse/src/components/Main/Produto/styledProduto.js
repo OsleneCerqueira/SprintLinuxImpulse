@@ -8,6 +8,12 @@ export const ProdutosStyle = styled.section`
   gap: 3rem;
   flex-wrap: wrap;
 `;
+export const ProdutoButton = styled.section`
+  width: 100%;
+  margin-top:4rem;
+  margin-left:30rem;
+background-color
+`;
 
 export const Separador = styled.div`
   width: 100%;

@@ -5,7 +5,7 @@ export const CardStyle = styled.section`
   align-items: start;
   margin-top: 1.5rem;
 section{
-    width: 100%;
+    width: 50%;
     height: 130px;
 
     img{

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Card from '../Card/Card';
 import { Button } from '../../Button/Button';
-import { ProdutosStyle, Separador } from './styledProduto';
+import { ProdutosStyle, Separador, ProdutoButton } from './styledProduto';
 
 function Produtos() {
   const [card, setNewCard] = useState([]);
@@ -46,7 +46,9 @@ function Produtos() {
                       />
                     ))}
       </ProdutosStyle>
-      <Button onClick={maisProdutos}>Ainda mais produtos aqui!</Button>
+      <ProdutoButton>
+        <Button onClick={maisProdutos}>Ainda mais produtos aqui!</Button>
+      </ProdutoButton>
       <Separador>
         <hr />
         <h4>

@@ -3,6 +3,7 @@ import Form from './SectionOne/Form';
 import Texto from './SectionOne/Texto';
 import Produtos from './Produto/Produto';
 import { SectionOne } from './SectionOne/styledSectionOne';
+import { Invite } from './Invite/Invite';
 
 function Main() {
   return (
@@ -12,6 +13,7 @@ function Main() {
         <Form />
       </SectionOne>
       <Produtos />
+      <Invite />
     </main>
   );
 }
